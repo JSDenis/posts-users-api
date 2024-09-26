@@ -1,6 +1,8 @@
 #Install modules
-
 npm i
+
+#Start server
+npm run start
 
 
 #Create db
