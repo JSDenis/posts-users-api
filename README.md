@@ -39,7 +39,7 @@ psql exampledb1
 
 
 #Create data:
-INSERT INTO person (id, name, surname) VALUES (1, 'Name 1', 'Surname 1');
+INSERT INTO person (name, surname) VALUES ('Name 1', 'Surname 1');
 
 INSERT INTO post (title, content, user_id) VALUES ('Title 1', 'Content 1', 1);
 
