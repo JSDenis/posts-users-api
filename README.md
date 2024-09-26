@@ -1,52 +1,52 @@
-#Install modules
+# Install modules
 
 npm i
 
-#Start server
+# Start server
 
 npm run start
 
 
-#Create db
+# Create db
 
 createdb exampledb1
 
 
-#Database connection
+# Database connection
 
 psql exampledb1
 
 
-#Get database contents
+# Get database contents
 
 \dt
 
 
-#Exiting the database session
+# Exiting the database session
 
 \q
 
 
-#All databases
+# All databases
 
 \l
 
 
-#Info about db
+# Info about db
 
 \c exampledb1
 
 
-#Create table
+# Create table
 
 \i database.sql
 
 
-#Create data:
+# Create data:
 INSERT INTO person (name, surname) VALUES ('Name 1', 'Surname 1');
 
 INSERT INTO post (title, content, user_id) VALUES ('Title 1', 'Content 1', 1);
 
 
-#Show person table with id=1:
+# Show person table with id=1:
 SELECT * FROM person WHERE id = 1;
